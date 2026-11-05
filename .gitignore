@@ -1,5 +1,13 @@
-# Object file
-*.o
+# Environment variables
+.env
+.env.*
+!.env.example
 
-# Ada Library Information
-*.ali
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
